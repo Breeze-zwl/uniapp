@@ -3,7 +3,7 @@ uniapp对于canvas封装了一些api，这里直罗列我碰到的坑，关于ve
 
 uniapp对canvas原生方法封装的地址（太多了，一点点查吧）：
 
-[]: https://uniapp.dcloud.net.cn/api/canvas/CanvasContext.html
+ https://uniapp.dcloud.net.cn/api/canvas/CanvasContext.html
 
 
 
