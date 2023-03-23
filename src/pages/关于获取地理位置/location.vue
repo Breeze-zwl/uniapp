@@ -9,8 +9,6 @@ onLoad(() => {
   amapPlugin.value = new AMapWX({
     key: AampWX.value,
   })
-  getRegeo()
-  getWeather()
 })
 const getRegeo = () => {
   amapPlugin.value.getRegeo({
@@ -25,8 +23,5 @@ const getWeather = () => {
       console.log(data)
     },
   })
-}
-const handleChangeLocal = () => {
-  popupShow.value = true
 }
 </script>
