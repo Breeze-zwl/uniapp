@@ -5,7 +5,7 @@
 这个时候就需要官方提供的page-meta标签，
 
 上代码：<br />
-$$
+```javascript
 <template>
   <page-meta :page-style="popupShow ? 'overflow: hidden;' : ''"></page-meta>
   <view @click="handlecount"></view>
@@ -24,5 +24,12 @@ $$
     popupShow.value = true
   }
 </script>
-$$
-原理很简单，定义一个变量，当popup展示的时候，让page-meta的over-flow:hidden，反之。uni-ui和vant weapp都可以用同样的方法<font color="#FF0000">注意page-meta只能是页面内的第一个节点</font> <br />
+```
+
+原理很简单，定义一个变量，当popup展示的时候，让page-meta的over-flow:hidden，反之。uni-ui和vant weapp都可以用同样的方法### <font color="#FF0000">注意page-meta只能是页面内的第一个节点</font> <br />
+
+uni-ui官方说明：https://uniapp.dcloud.net.cn/component/uniui/uni-popup.html#%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-app <br />
+
+vant weapp说明：https://vant-contrib.gitee.io/vant-weapp/#/popup  <br />
+
+注意vue3和vue2写法，以及语法糖写法
